@@ -1,0 +1,39 @@
+.selected {
+    border: 2px solid blue;
+    padding: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+  #card {
+    height: 500px;
+  }
+
+  #card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+    #card img {
+    height: 70%;
+    object-fit: cover;
+  }
+
+  #card .card-title {   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #card {
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #card {
+    height: 500px;
+  }
+}

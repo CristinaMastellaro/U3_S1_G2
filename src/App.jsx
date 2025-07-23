@@ -3,14 +3,17 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import MyNav from "./components/MyNav.jsx";
 import MyFooter from "./components/MyFooter.jsx";
 import Welcome from "./components/Welcome.jsx";
-import AllTheBooks from "./components/AllTheBooks.jsx";
+import fantasy from "./data/fantasy.json";
+import BookList from "./components/BookList.jsx";
+// import AllTheBooks from "./components/AllTheBooks.jsx";
 
 function App() {
   return (
     <>
       <MyNav />
       <Welcome />
-      <AllTheBooks />
+      {/* <AllTheBooks /> */}
+      <BookList list={fantasy} />
       <MyFooter />
     </>
   );
