@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Card, Col, Button } from "react-bootstrap";
-import "../css/SingleBook.css"; // Assuming you have a CSS file for styling
+import "../css/SingleBook.css";
 
 class SingleBook extends Component {
   state = {
